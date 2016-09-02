@@ -1,0 +1,18 @@
+﻿Build started 12.07.2016 1:51:27.
+     1>Project "c:\Users\Основной\documents\visual studio 2013\Projects\Recogn\Recogn\Recogn.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\opencv\3.1\opencv\sources\build\install\x64\vc12\..\..\include /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Maincpp.cpp TwoViewTransform.cpp
+         TwoViewTransform.cpp
+     1>c:\users\основной\documents\visual studio 2013\projects\recogn\recogn\TwoViewTransform.h(15): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         Maincpp.cpp
+     1>c:\users\основной\documents\visual studio 2013\projects\recogn\recogn\TwoViewTransform.h(15): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\основной\documents\visual studio 2013\Projects\Recogn\x64\Debug\Recogn.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\opencv\3.1\opencv\sources\build\install\x64\vc12\lib opencv_calib3d310.lib opencv_shape310d.lib opencv_calib3d310d.lib opencv_stitching310.lib opencv_core310.lib opencv_stitching310d.lib opencv_core310d.lib opencv_superres310.lib opencv_features2d310.lib opencv_superres310d.lib opencv_features2d310d.lib opencv_ts310.lib opencv_flann310.lib opencv_ts310d.lib opencv_flann310d.lib opencv_video310.lib opencv_highgui310.lib opencv_video310d.lib opencv_highgui310d.lib opencv_videoio310.lib opencv_imgcodecs310.lib opencv_videoio310d.lib opencv_imgcodecs310d.lib opencv_videostab310.lib opencv_imgproc310.lib opencv_videostab310d.lib opencv_imgproc310d.lib opencv_viz310.lib opencv_ml310.lib opencv_viz310d.lib opencv_ml310d.lib opencv_xfeatures2d310.lib opencv_objdetect310.lib opencv_xfeatures2d310d.lib opencv_objdetect310d.lib opencv_photo310.lib opencv_photo310d.lib opencv_shape310.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\основной\documents\visual studio 2013\Projects\Recogn\x64\Debug\Recogn.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\основной\documents\visual studio 2013\Projects\Recogn\x64\Debug\Recogn.lib" /MACHINE:X64 x64\Debug\Maincpp.obj
+         x64\Debug\TwoViewTransform.obj
+         Recogn.vcxproj -> c:\users\основной\documents\visual studio 2013\Projects\Recogn\x64\Debug\Recogn.exe
+     1>Done Building Project "c:\Users\Основной\documents\visual studio 2013\Projects\Recogn\Recogn\Recogn.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.56
